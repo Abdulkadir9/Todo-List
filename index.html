@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons-png.flaticon.com/512/4697/4697260.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Todo List</title>
+  </head>
+  <body oncontextmenu="return false">
+    <div class="whole-pages-div">
+      <div class="pages-top">
+        <div class="navbar-con">
+          <div class="navbar">
+            <h2 class="pa">Kadir's Todo List</h2>
+          </div>
+        </div>
+        <div class="main">
+          <div class="main-con">
+            <div class="todo-send">
+              <input
+                maxlength="78"
+                class="txtTodo"
+                placeholder="Notunu yaz"
+                type="text"
+              />
+              <button class="btnSend">
+                <p class="ekleTxt">Ekle</p>
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+            <div class="todo-lists-div"></div>
+          </div>
+        </div>
+      </div>
+      <div class="pages-bottom">
+        <div class="footbar-con">
+          <div class="footbar">
+            <h1>by Kadir</h1>
+            <div>
+              <ul class="lis-con">
+                <li class="fb-li">
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/aptulkadir.9/"
+                  >
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+                <li class="fb-li">
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/abdulkadir-%C5%9Fahin-899994210/"
+                  >
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </li>
+                <li class="fb-li">
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/channel/UCIVl86FTVevZsW0xnMSQlFQ"
+                  >
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hata-ekrani-all">
+      <div class="hata">
+        <h3 style="text-align: center; margin-bottom: 30px">
+          Boş yer var kardeşim benim, boş yere veri eklemeye mi çalışıyorsun??
+        </h3>
+        <button class="btnOzur">tm abi ya özür dilerim</button>
+      </div>
+    </div>
+
+    <script src="./assets/main.js"></script>
+    <script src="./assets/anim.js"></script>
+  </body>
+</html>
